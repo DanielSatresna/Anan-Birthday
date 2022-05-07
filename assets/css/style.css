@@ -88,6 +88,12 @@ footer {
   body {
     overflow-x: hidden;
   }
+  .container1 img {
+    width: 360px;
+  }
+  .ucapan img {
+    width: 360px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -96,6 +102,17 @@ footer {
   }
 }
 @media (max-width: 420px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container1 img {
+    width: 385px;
+  }
+  .ucapan img {
+    width: 386px;
+  }
+}
+@media (max-width: 440px) {
   body {
     overflow-x: hidden;
   }
