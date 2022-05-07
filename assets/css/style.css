@@ -78,14 +78,15 @@ footer {
   body {
     overflow-x: hidden;
   }
-  .products {
-    display: block;
+  .container1 img {
+    width: 350px;
   }
-  .dimage {
-    display: none;
+  .ucapan img {
+    width: 350px;
   }
 }
-@media (max-width: 380px) {
+
+@media (min-width: 380px) {
   body {
     overflow-x: hidden;
   }
@@ -102,7 +103,7 @@ footer {
     overflow-x: hidden;
   }
 }
-@media (max-width: 420px) {
+@media (min-width: 410px) {
   body {
     overflow-x: hidden;
   }
@@ -116,5 +117,16 @@ footer {
 @media (max-width: 440px) {
   body {
     overflow-x: hidden;
+  }
+}
+@media (min-width: 460px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container1 img {
+    width: 480px;
+  }
+  .ucapan img {
+    width: 480px;
   }
 }
